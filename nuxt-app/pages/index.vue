@@ -4,7 +4,7 @@ useHead({
 });
 </script>
 
-<!-- todo: ts conversion -->
+<!-- todo: convert to typescript -->
 <script>
 export default {
   mounted() {
