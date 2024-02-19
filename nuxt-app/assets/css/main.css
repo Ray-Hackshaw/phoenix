@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Arimo";
+}
+
+.first-half {
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+
+.second-half {
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.rendershape {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.maincard {
+  background-image: url("/dreams.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
