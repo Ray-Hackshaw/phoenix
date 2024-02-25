@@ -164,7 +164,7 @@ export default {
             class="rounded-full w-fit overflow-hidden flex mx-auto -mt-32 relative cursor-pointer"
             @click="goToGithub"
           >
-            <NuxtImg src="/avi2.jfif" format="jfif" width="200" height="200" />
+            <NuxtImg src="/avi2.jfif" format="jfif" alt="Avatar image of Ray Hackshaw" width="200" height="200" />
           </div>
 
           <h1 class="font-bold tracking-wider text-2xl md:text-3xl">
