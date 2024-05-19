@@ -4,6 +4,7 @@
 
 html {
   font-family: "Arimo";
+  cursor: none;
 }
 
 .first-half {
@@ -16,11 +17,4 @@ html {
 
 .rendershape {
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-}
-
-.maincard {
-  background-image: url("/dreams.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
