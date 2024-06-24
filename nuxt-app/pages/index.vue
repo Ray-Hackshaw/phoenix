@@ -3,6 +3,11 @@ useHead({
   title: "Ray Hackshaw",
 });
 </script>
+<script
+  defer
+  src="https://app.denki.co.nz/script.js"
+  data-website-id="a9f957ff-3d8a-4175-b581-f6308e171a19"
+></script>
 
 <!-- todo: convert to typescript -->
 <script>
