@@ -22,19 +22,6 @@ function goToGithub() {
     <div class="max-w-7xl w-full flex items-center rounded-md z-[10]">
       <div class="max-w-5xl w-full mx-auto min-h-[30vh] text-[#131313]">
         <div class="p-4 mt-2 w-full max-w-3xl mx-auto text-center space-y-2">
-          <div
-            class="rounded-full w-fit overflow-hidden flex mx-auto -mt-32 relative cursor-pointer"
-            @click="goToGithub"
-          >
-            <NuxtImg
-              src="/avi2.jfif"
-              format="jfif"
-              alt="Avatar image of Ray Hackshaw"
-              width="200"
-              height="200"
-            />
-          </div>
-
           <h1 class="font-bold tracking-wider text-2xl md:text-3xl">
             Ray Hackshaw
           </h1>
