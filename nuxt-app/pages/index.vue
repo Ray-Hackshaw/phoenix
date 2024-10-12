@@ -1,6 +1,9 @@
 <script setup>
 import { useHead } from "#imports";
+import "../assets/css/main.css";
+import VerticalTextCarousel from "./VerticalTextCarousel.vue";
 
+// Head configuration
 useHead({
   title: "Ray Hackshaw",
   script: [
@@ -10,43 +13,38 @@ useHead({
     },
   ],
 });
-
-function goToGithub() {
-  window.open("https://github.com/Ray-Hackshaw");
-}
 </script>
 <template>
   <main
-    class="flex flex-col relative justify-center items-center min-w-[100vw] min-h-[100vh] maincard"
+    class="flex flex-col relative justify-center items-center bg-[#252525] min-w-[100vw] min-h-[100vh]"
   >
-    <div class="max-w-7xl w-full flex items-center rounded-md z-[10]">
-      <div class="max-w-5xl w-full mx-auto min-h-[30vh] text-[#131313]">
-        <div class="p-4 mt-2 w-full max-w-3xl mx-auto text-center space-y-2">
-          <h1 class="font-bold tracking-wider text-2xl md:text-3xl">
-            Ray Hackshaw
-          </h1>
-          <div class="leading-tight">
-            <h2 class="opacity-70">Auckland, New Zealand</h2>
-            <p class="opacity-90">Web Developer</p>
+    <div
+      class="max-w-7xl w-full flex items-center rounded-md z-[10] text-white"
+    >
+      <div
+        class="max-w-5xl w-full mx-auto min-h-[30vh] p-4 rounded-md relative"
+      >
+        <div className="flex flex-col md:flex-row md:gap-4 w-full relative">
+          <div className="text-white">
+            <h1 class="tracking-tight font-bold uppercase text-4xl md:text-6xl">
+              Ray Hackshaw
+            </h1>
+          </div>
+          <div className="indent-2 leading-tight uppercase md:pb-0 pb-4">
+            <h2 className="text-base md:text-xl">Full-stack Developer</h2>
+            <p className="text-xs md:text-sm">Auckland, NZ</p>
+            <div className="text-white w-full py-1">
+              <VerticalTextCarousel />
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <footer
-      class="bg-opacity-80 p-4 w-full flex gap-2 absolute bottom-0 text-[#131313] text-md md:text-lg lg:text-xl"
-    >
-      <ul class="text-center grid grid-cols-2 md:flex gap-4 md:gap-8 mx-auto">
-        <li class="underline">
-          <NuxtLink to="https://github.com/Ray-Hackshaw">Github</NuxtLink>
-        </li>
-        <li class="underline">
-          <NuxtLink to="https://www.linkedin.com/in/rayhackshaw/"
-            >LinkedIn</NuxtLink
-          >
-        </li>
-        <li class="col-span-2">ray@rayhackshaw.com</li>
-        <li class="col-span-2">+642102328715</li>
-      </ul>
-    </footer>
+    <div className="absolute bottom-0 py-4 flex gap-1">
+      <p className="text-white">Analytics powered by</p>
+      <NuxtLink to="https://denki.co.nz/" className="underline text-white"
+        >Denki</NuxtLink
+      >
+    </div>
   </main>
 </template>

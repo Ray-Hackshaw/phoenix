@@ -25,7 +25,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      Arimo: true,
+      "Work+Sans": true,
     },
   },
   image: {

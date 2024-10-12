@@ -2,6 +2,6 @@
 
 <style>
 html {
-  font-family: "Arimo";
+  /* font-family: "Arimo"; */
 }
 </style>
