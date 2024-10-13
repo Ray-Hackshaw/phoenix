@@ -17,7 +17,7 @@ useHead({
 <template>
   <main>
     <div
-      class="flex flex-col relative justify-center bg-[radial-gradient(ellipse_at_75%_25%,rgba(35,35,35,1)_0%,rgba(19,19,19,1)_70%,rgba(19,19,19,1)_100%)] items-center min-w-[100vw] min-h-[100vh]"
+      class="flex flex-col relative gap-2 justify-center bg-[radial-gradient(ellipse_at_75%_25%,rgba(35,35,35,1)_0%,rgba(19,19,19,1)_70%,rgba(19,19,19,1)_100%)] items-center w-full min-h-screen"
     >
       <div
         class="max-w-7xl w-full flex items-center rounded-md z-[10] text-white"
@@ -43,6 +43,45 @@ useHead({
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className="flex gap-4 lg:flex-col items-center lg:items-start justify-center p-4"
+      >
+        <NuxtLink to="https://github.com/Ray-Hackshaw" target="_blank">
+          <div class="flex gap-2 items-center">
+            <NuxtImg
+              src="/github.svg"
+              width="20"
+              height="20"
+              class="text-white fill-white stroke-white"
+            />
+            <p class="text-white hidden lg:flex">Github</p>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="https://www.linkedin.com/in/rayhackshaw/" target="_blank">
+          <div class="flex gap-2 items-center">
+            <NuxtImg
+              src="/linkedin.svg"
+              width="20"
+              height="20"
+              class="text-white fill-white stroke-white"
+              alt="linkedin logo"
+            />
+            <p class="text-white hidden lg:flex">LinkedIn</p>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="https://reading.supply/@rhackshaw" target="_blank">
+          <div class="flex gap-2 items-center">
+            <NuxtImg
+              src="/readingsupply.svg"
+              width="20"
+              height="20"
+              class="text-white fill-white stroke-white"
+              alt="ReadingSupply logo"
+            />
+            <p class="text-white hidden lg:flex">ReadingSupply</p>
+          </div>
+        </NuxtLink>
       </div>
       <div class="absolute bottom-0 py-4 flex gap-1">
         <p class="text-white">Analytics powered by</p>
