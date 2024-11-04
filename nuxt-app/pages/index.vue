@@ -1,7 +1,6 @@
 <script setup>
 import { useHead } from "#imports";
 import "../assets/css/main.css";
-import VerticalTextCarousel from "./VerticalTextCarousel.vue";
 
 // Head configuration
 useHead({
@@ -39,9 +38,9 @@ useHead({
                 Full-stack Developer
               </h2>
               <p class="text-xs md:text-sm uppercase">Auckland, NZ</p>
-              <div class="text-white w-full py-1">
+              <!-- <div class="text-white w-full py-1">
                 <VerticalTextCarousel />
-              </div>
+              </div> -->
               <p>ray@rayhackshaw.com</p>
             </div>
           </div>
