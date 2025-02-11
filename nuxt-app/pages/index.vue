@@ -80,16 +80,16 @@ useHead({
           </NuxtLink>
         </div>
         <div>
-          <NuxtLink to="https://reading.supply/@rhackshaw" target="_blank">
+          <NuxtLink to="https://portfolio.rayhackshaw.com" target="_blank">
             <div class="flex gap-2 items-center">
               <NuxtImg
                 src="/readingsupply.svg"
                 width="20"
                 height="20"
                 class="text-white fill-white stroke-white"
-                alt="ReadingSupply logo"
+                alt="Portfolio logo"
               />
-              <p class="text-white hidden lg:flex">ReadingSupply</p>
+              <p class="text-white hidden lg:flex">Portfolio</p>
             </div>
           </NuxtLink>
         </div>
